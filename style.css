@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #8f1b40;
+    padding: 20px 0;
+    text-align: center;
+    font-size: larger;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #2aaa3d;
+    text-decoration: none;
+}
+
+#hero {
+    background: burlywood;
+    color: #400ebe;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta-button {
+    background: #e67e22;
+    color: #c2de45;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#skills{
+    background: #b0d635;
+}
+
+.skills-section .skills-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skills-content .heading{
+    text-align: center;
+    margin-top: 3cm;
+    margin-bottom: 1cm;
+    font-size: 36px;
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+
+.progress-bar{
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.progress{
+    background-color: #2aaa3d;
+    height: 100%;
+    width: 0;
+    border-radius: 8px;
+    animation: fillprogress 1s forward;
+}
+#portfolio{
+    background: #6c9bd8;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.project {
+    border: 1px solid #c6e82d;
+    padding: 15px;
+    margin: 10px 0;
+}
+.project img{
+    width: 350px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #9dc938;
+}
